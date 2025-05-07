@@ -73,6 +73,7 @@
             this.btnIspis.TabIndex = 3;
             this.btnIspis.Text = "Ispisi sve";
             this.btnIspis.UseVisualStyleBackColor = true;
+            this.btnIspis.Click += new System.EventHandler(this.btnIspis_Click);
             // 
             // btnSave
             // 
@@ -92,6 +93,7 @@
             this.btnDelete.TabIndex = 5;
             this.btnDelete.Text = "Izbrisi";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // txtElBr
             // 

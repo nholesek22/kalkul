@@ -19,6 +19,8 @@ namespace PoljeAPP
         }
         private int i = 0;
         private int[] polje = new int[100];
+        private string ispis = "";
+
         private void btnIza_Click(object sender, EventArgs e)
         {
             if (!(i == 0)) i -= 1;
@@ -37,6 +39,16 @@ namespace PoljeAPP
             polje[i] = Convert.ToInt32(txtElement.Text);
         }
 
-        
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            polje[i] = 0;
+        }
+
+        private void btnIspis_Click(object sender, EventArgs e)
+        {
+            foreach (int element in polje) if (element != 0) ispis += element.ToString() + " ";
+            MessageBox.Show($"Brojevi: {ispis}", "Ispis", MessageBoxButtons.OK);
+            ispis = string.Empty;
+        }
     }
 }
