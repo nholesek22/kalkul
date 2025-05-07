@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kalkul", "kalkul\kalkul.csproj", "{B0548062-7372-4D43-9653-74FB1F61A3D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAPP", "TestAPP\TestAPP.csproj", "{F2BCD628-DD1E-4897-BFDF-8B0EEA078C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoljeAPP", "PoljeAPP\PoljeAPP.csproj", "{4310FE39-E368-4068-9DC4-1EF48CACF7CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B0548062-7372-4D43-9653-74FB1F61A3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0548062-7372-4D43-9653-74FB1F61A3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0548062-7372-4D43-9653-74FB1F61A3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BCD628-DD1E-4897-BFDF-8B0EEA078C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BCD628-DD1E-4897-BFDF-8B0EEA078C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BCD628-DD1E-4897-BFDF-8B0EEA078C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BCD628-DD1E-4897-BFDF-8B0EEA078C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4310FE39-E368-4068-9DC4-1EF48CACF7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4310FE39-E368-4068-9DC4-1EF48CACF7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4310FE39-E368-4068-9DC4-1EF48CACF7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4310FE39-E368-4068-9DC4-1EF48CACF7CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
