@@ -55,7 +55,7 @@
             this.DisplayTextBox.Location = new System.Drawing.Point(30, 31);
             this.DisplayTextBox.Name = "DisplayTextBox";
             this.DisplayTextBox.ReadOnly = true;
-            this.DisplayTextBox.Size = new System.Drawing.Size(304, 44);
+            this.DisplayTextBox.Size = new System.Drawing.Size(326, 44);
             this.DisplayTextBox.TabIndex = 0;
             this.DisplayTextBox.Text = "0";
             this.DisplayTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -168,6 +168,7 @@
             this.plus.TabIndex = 10;
             this.plus.Text = "+";
             this.plus.UseVisualStyleBackColor = true;
+            this.plus.Click += new System.EventHandler(this.plus_Click);
             // 
             // puta
             // 
@@ -178,6 +179,7 @@
             this.puta.TabIndex = 11;
             this.puta.Text = "*";
             this.puta.UseVisualStyleBackColor = true;
+            this.puta.Click += new System.EventHandler(this.puta_Click);
             // 
             // dijeli
             // 
@@ -188,6 +190,7 @@
             this.dijeli.TabIndex = 13;
             this.dijeli.Text = "/";
             this.dijeli.UseVisualStyleBackColor = true;
+            this.dijeli.Click += new System.EventHandler(this.dijeli_Click);
             // 
             // minus
             // 
@@ -198,16 +201,18 @@
             this.minus.TabIndex = 12;
             this.minus.Text = "-";
             this.minus.UseVisualStyleBackColor = true;
+            this.minus.Click += new System.EventHandler(this.minus_Click);
             // 
             // button14
             // 
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(285, 370);
+            this.button14.Location = new System.Drawing.Point(294, 370);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(71, 55);
             this.button14.TabIndex = 14;
             this.button14.Text = "Enter";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // nula
             // 
@@ -240,6 +245,7 @@
             this.button17.TabIndex = 17;
             this.button17.Text = "C";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // plusminus
             // 
@@ -256,7 +262,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(368, 450);
+            this.ClientSize = new System.Drawing.Size(383, 450);
             this.Controls.Add(this.plusminus);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.dotbutton);
